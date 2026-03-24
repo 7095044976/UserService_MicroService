@@ -1,0 +1,11 @@
+server:
+  port: 8081
+Spring:
+  datasource:
+    url: jdbc:postgresql://qa-server:5432/userdb_qa
+    username: qauser
+    password: qapassword
+  jpa:
+    hibernate:
+      ddl-auto: validate
+    show-sql: false

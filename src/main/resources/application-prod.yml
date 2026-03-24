@@ -1,0 +1,13 @@
+server:
+  port: 8081
+
+spring:
+  datasource:
+    url: jdbc:postgresql://prod-server:5432/userdb_prod
+    username: produser
+    password: prodpassword
+
+  jpa:
+    hibernate:
+      ddl-auto: none
+    show-sql: false
